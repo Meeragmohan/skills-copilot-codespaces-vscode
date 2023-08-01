@@ -1,10 +1,14 @@
 function skillsmeber() {
     var member = document.getElementById("member");
     var skills = document.getElementById("skills");
-    var memberbtn = document.getElementById("memberbtn");
-    var skillsbtn = document.getElementById("skillsbtn");
+    var project = document.getElementById("project");
+    var contact = document.getElementById("contact");
+    var about = document.getElementById("about");
+    var member = document.getElementById("member");
     member.style.display = "block";
     skills.style.display = "none";
-    memberbtn.style.backgroundColor = "#fff";
-    skillsbtn.style.backgroundColor = "#f1f1f1";
+    project.style.display = "none";
+    contact.style.display = "none";
+    about.style.display = "none";
+    member.style.display = "block";
 }
